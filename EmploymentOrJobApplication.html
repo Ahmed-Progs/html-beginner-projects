@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment-Job Application</title>
+</head>
+
+<body>
+    <h1>EMPLOYMENT - JOB APPLICATION </h1>
+    <h2>Personal Information</h2>
+    <form action="/submit.php">
+        <div>
+            <label for="name">Full Name </label>
+            <input id="name" type="text" placeholder="Enter Name" required>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="" disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="Enter Date" required>
+            </div>
+            <div>
+                <label for="adress">Adress</label>
+                <input type="text" id="adress" placeholder="Enter your adress" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+            </div>
+            <div>
+                <label for="phone">Phone </label>
+                <input type="tel" id="phone" placeholder="Enter your Number" required>
+            </div>
+            <div>
+                <label for="ssn">Social Security Number</label>
+                <input type="text" id="ssn" placeholder="Enter your SSN">
+            </div>
+            <div>
+                <label for="datee">Date Available</label>
+                <input type="date" id="datee" placeholder="Enter Date" required>
+            </div>
+            <div>
+                <label for="salary">Desired Salary</label>
+                <input type="text" id="salary" placeholder="IN PKR" required>
+            </div>
+            <div>
+                <label for="position">Position applied for</label>
+                <input type="text" id="position" placeholder="Enter your post for which you had applied" required>
+            </div>
+            <div>
+                <p>Employment Desired</p>
+                <input type="radio" id="full" name="desired">
+                <label for="full">Full-time</label>
+
+                <input type="radio" id="part" name="desired">
+                <label for="part">Part-time</label>
+
+                <input type="radio" id="seasonal" name="desired">
+                <label for="seasonal">Seasonal</label>
+
+            </div>
+
+            <h2>Employment Eligiblity</h2>
+            <p>Are you a U.S. Citizen?</p>
+            <div>
+                <label for="citizen">Yes</label>
+                <input type="radio" id="citizen" name="option">
+                <label for="citizon">No</label>
+                <input type="radio" id="citizon" name="option">
+            </div>
+
+            <p>If No, are you allowed to work in the U.S.?</p>
+            <div>
+                <input type="radio" id="if" name="options">
+                <label for="if">Yes</label>
+
+                <input type="radio" id="iff" name="options">
+                <label for="iff">No</label>
+            </div>
+
+            <p>Have you ever worked for this Employer?</p>
+            <div>
+                <input type="radio" id="else" name="options">
+                <label for="else">Yes</label>
+                <input type="radio" id="elsee" name="options">
+                <label for="elsee">No</label>
+            </div>
+
+            <div>
+                <label for="datess">If yes, then write the start and end dates</label>
+                <input type="date" id="datess" placeholder="Start date">
+                <input type="date" id="datess" placeholder="End date">
+            </div>
+
+            <p>Have you ever beed convicted of a felony?</p>
+            <div>
+                <input type="radio" id="or" name="options">
+                <label for="or">Yes</label>
+                <input type="radio" id="orr" name="options">
+                <label for="orr">No</label>
+
+            </div>
+
+            <div>
+                <label for="explain">If yes, please explain</label>
+                <input type="text" id="datess" placeholder="explain ">
+            </div>
+
+            <h2>Education</h2>
+
+            <div>
+                <label for="school">High School</label>
+                <input type="text" placeholder="Enter your high school name" id="school">
+            </div>
+            <div>
+                <label for="city">City-State </label>
+                <input type="text" id="city" placeholder="Enter your City / State name">
+            </div>
+            <div>
+                <label for="from">From </label>
+                <input type="date" id="from" placeholder="Enter Starting date">
+                <label for="to">To </label>
+                <input type="date" id="to" placeholder="Enter Ending date">
+            </div>
+            <div>
+                <p>Graduate?</p>
+                <input type="radio" name="optionz" id="graduate1">
+                <label for="graduate1">Yes</label>
+                <input type="radio" name="optionz" id="graduated1">
+                <label for="graduated1">No</label>
+            </div>
+            <div>
+                <label for="diploma">Diploma</label>
+                <input type="text" id="diploma" placeholder="Enter your Diploma">
+            </div>
+            <div>
+                <label for="college">College</label>
+                <input type="text" placeholder="Enter your College name" id="school">
+            </div>
+            <div>
+                <label for="city">City-State </label>
+                <input type="text" id="city" placeholder="Enter your City / State name">
+            </div>
+            <div>
+                <p>Graduate?</p>
+                <input type="radio" name="options" id="graduate2">
+                <label for="graduate2">Yes</label>
+                <input type="radio" name="options" id="graduated2">
+                <label for="graduated2">No</label>
+            </div>
+            <div>
+                <label for="degree">Degree</label>
+                <input type="text" id="degree" placeholder="Enter your degree">
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea placeholder="Enter Comments" id="comments" row="4"></textarea>
+            </div>
+            <div>
+                <button type="Submit">Submit</button>
+            </div>
+    </form>
+</body>
+
+</html>
