@@ -1,5 +1,5 @@
 # html-beginner-projects
-A collection of beginner HTML projects for practice
+A collection of beginner HTML projects for practice for beginners
 
 # Beginner HTML Projects 🚀
 
@@ -18,7 +18,7 @@ A simple HTML project that recreates a Wikipedia-style article layout about the 
 ---
 
 ### 📄 Employment or Job Application Form
-An HTML-only project that builds a basic **job application form**. It uses form elements such as input fields, radio buttons, select dropdowns, and text areas for collecting applicant information.
+An HTML-only project that builds a basic **Job Application Form**. It uses form elements such as input fields, radio buttons, select dropdowns, and text areas for collecting applicant information.
 
 **File:** `EmploymentOrJobApplication.html`
 
@@ -26,11 +26,13 @@ An HTML-only project that builds a basic **job application form**. It uses form 
 
 ## 📬 Contact
 
-Feel free to connect with me on **LinkedIn**:  
-Ahmed Raza (www.linkedin.com/in/ahmed-raza-130336355)
-
+Feel free to connect with me on:  
+**LinkedIn** (www.linkedin.com/in/ahmed-raza-130336355)
+**GitHub** (https://github.com/Ahmed-Progs)
 ---
 
-## 📜 License
+## 📜 Note
 
-This repository is open for learning purposes. You can use, modify, and share these projects freely.
+This repository is open for learning purposes. You can use, modify, and share these projects freely you can fork and remove vernabilites / Errors ,feel free to fork. Thank You!
+Regards,
+Ahmed Raza
