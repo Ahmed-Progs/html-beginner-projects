@@ -31,7 +31,7 @@ Feel free to connect with me on:
 **GitHub** (https://github.com/Ahmed-Progs)
 ---
 
-## 📜 License
+## 📜 Note
 
 This repository is open for learning purposes. You can use, modify, and share these projects freely you can fork and remove vernabilites / Errors ,feel free to fork. Thank You!
 Regards,
