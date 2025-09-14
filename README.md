@@ -1,5 +1,5 @@
 # html-beginner-projects
-A collection of beginner HTML projects for practice for beginners
+A collection of beginner HTML projects for practice.
 
 # Beginner HTML Projects 🚀
 
